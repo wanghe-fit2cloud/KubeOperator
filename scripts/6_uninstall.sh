@@ -11,10 +11,10 @@ function remove_dir() {
 }
 function remove_service() {
     echo -e "停止 KubeOperator 服务进程"
-    if [ -a /etc/systemd/system/kubeops.serviced ] ;then
+    if [ -a /etc/systemd/system/kubeops.service ] ;then
         systemctl stop kubeops 2&> /dev/null
         systemctl disable kubeops 2&> /dev/null
-        rm -rf /etc/systemd/system/kubeops.serviced
+        rm -rf /etc/systemd/system/kubeops.service
     fi
     if [ -a /opt/kubeoperator/kubeopsctl.sh ]; then
         cd /opt/kubeoperator && docker-compose down -v 
