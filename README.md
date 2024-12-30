@@ -39,7 +39,7 @@ KubeOperator 使用 Terraform 在 IaaS 平台上自动创建主机（用户也�
 
 ### License & Copyright
 
-Copyright (c) 2014-2024 FIT2CLOUD 飞致云
+Copyright (c) 2014-2025 FIT2CLOUD 飞致云
 
 [https://www.fit2cloud.com](https://www.fit2cloud.com)<br>
 
